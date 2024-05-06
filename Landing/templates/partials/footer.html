@@ -1,0 +1,50 @@
+{% load static %}
+{% block footer %}
+ <!-- start footer -->
+ <footer class="footer bg-dark text-white-50">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <a href="#" class="d-block mb-3">
+                    <img src="{% static 'images/logo-neuropharma-bn.png' %}" alt="" height="60" />
+                </a>
+                <p>NeuroPharma S.A.S - ECUADOR</p>
+            </div>
+
+            <div class="col-lg-2 col-sm-6">
+                <div class="mt-4 mt-lg-0">
+                    <h5 class="mb-4 font-18 text-white">Productos</h5>
+                    <ul class="list-unstyled footer-list-menu">
+                        <li><a href="#">Neuro B12</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+                <div class="mt-4 mt-lg-0">
+                    <h5 class="mb-4 font-18 text-white">Contáctos</h5>
+                    <ul class="list-unstyled footer-list-menu">
+                        <li>+593 99 772 3187</li>
+                        <br>
+                        <li>+593 99 006 6689</li>
+                        <li><a href="#"><img src="{% static 'images/whatsapp.png' %}" alt="" height="60" /></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="mt-4 mt-lg-0">
+                    <h5 class="mb-4 font-18 text-white">Redes sociales</h5>
+                    <ul class="list-inline social-icons-list">
+                        <li class="list-inline-item">
+                            <a href="#"><i class="mdi mdi-facebook"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container -->
+</footer>
+<!-- end footer -->
+{% endblock footer %}
